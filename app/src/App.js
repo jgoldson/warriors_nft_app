@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
 import CandyMachine from './CandyMachine';
-import { Link, animateScroll as scroll } from "react-scroll";
 
 const App = () => {
   // State
@@ -74,7 +73,7 @@ const App = () => {
           {!walletAddress && renderNotConnectedContainer()}
         </div>
         {/* Check for walletAddress and then pass in walletAddress */}
-        <Link to="section1"></Link>
+        
         <div className="candy-machine" >
           
         {walletAddress && <CandyMachine walletAddress={window.solana} />}
