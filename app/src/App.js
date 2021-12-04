@@ -44,12 +44,15 @@ const App = () => {
   };
 
   const renderNotConnectedContainer = () => (
+    <div>
     <button
       className="cta-button connect-wallet-button"
       onClick={connectWallet}
     >
       Connect to Wallet
     </button>
+    <p>Currently only supporting Phantom Wallets</p>
+    </div>
   );
 
   useEffect(() => {

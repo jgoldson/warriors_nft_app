@@ -165,3 +165,12 @@
     background-position: 0% 50%;
   }
 }
+
+@media all and (max-width: 1024px) {
+  .candy-machine{
+    width: 90%;
+  }
+  .header-container{
+    width: 90%;
+  }
+}
