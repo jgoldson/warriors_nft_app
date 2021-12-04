@@ -1,15 +1,15 @@
 {
-    "name": "Cleon",
+    "name": "Mercy",
     "symbol": "",
-    "image": "2.png",
+    "image": "12.png",
     "collection": {
-      "name": "The Warriors",
+      "name": "The Orphans",
       "family": "Street Gangs of NY"
    },
     "properties": {
       "files": [
         {
-          "uri": "2.png",
+          "uri": "12.png",
           "type": "image/png"
         }
       ],

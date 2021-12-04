@@ -1,7 +1,11 @@
 {
-    "name": "Cyrus",
+    "name": "Ajax",
     "symbol": "",
     "image": "0.png",
+    "collection": {
+        "name": "The Warriors",
+        "family": "Street Gangs of NY"
+     },
     "properties": {
       "files": [
         {
@@ -11,7 +15,7 @@
       ],
       "creators": [
         {
-          "address": "3xtMWVEM2Ajvgqi18YPqkuG45dJg7qoVA5cZ2TD3xXQA",
+          "address": "9nY2F2RUcVZxuYQTH4nd5tCTeciQ9sc4k5zpYHQi5vFq",
           "share": 100
         }
       ]

@@ -1,7 +1,7 @@
 {
-    "name": "Cleon",
+    "name": "Swan",
     "symbol": "",
-    "image": "2.png",
+    "image": "18.png",
     "collection": {
       "name": "The Warriors",
       "family": "Street Gangs of NY"
@@ -9,7 +9,7 @@
     "properties": {
       "files": [
         {
-          "uri": "2.png",
+          "uri": "18.png",
           "type": "image/png"
         }
       ],

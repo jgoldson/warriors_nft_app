@@ -1,15 +1,15 @@
 {
-    "name": "Cleon",
+    "name": "Cyrus",
     "symbol": "",
-    "image": "2.png",
+    "image": "10.png",
     "collection": {
-      "name": "The Warriors",
+      "name": "The Riffs",
       "family": "Street Gangs of NY"
    },
     "properties": {
       "files": [
         {
-          "uri": "2.png",
+          "uri": "10.png",
           "type": "image/png"
         }
       ],

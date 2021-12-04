@@ -1,3 +1,11 @@
+h1{
+  font-size: 50px;
+}
+p {
+  font-weight: bold;
+  font-size: 25px;
+}
+
 .machine-container {
   display: flex;
   flex-direction: column;

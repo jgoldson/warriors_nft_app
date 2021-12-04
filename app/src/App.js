@@ -67,7 +67,7 @@ const App = () => {
       overflow: 'scroll'
     } } >
         <div className="header-container">
-          <p className="header">The Warriors</p>
+          <p className="header">The Warriors NFTs</p>
           <p className="sub-text">Mint your way back to Coney Island</p>
           {/* Add the condition to show this only if we don't have a wallet address */}
           {!walletAddress && renderNotConnectedContainer()}

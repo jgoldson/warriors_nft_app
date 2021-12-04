@@ -1,15 +1,15 @@
 {
-    "name": "Cleon",
+    "name": "Cropsey",
     "symbol": "",
-    "image": "2.png",
+    "image": "5.png",
     "collection": {
-      "name": "The Warriors",
+      "name": "The Rogues",
       "family": "Street Gangs of NY"
    },
     "properties": {
       "files": [
         {
-          "uri": "2.png",
+          "uri": "5.png",
           "type": "image/png"
         }
       ],

@@ -1,15 +1,15 @@
 {
-    "name": "Cleon",
+    "name": "Punks Leader",
     "symbol": "",
-    "image": "2.png",
+    "image": "15.png",
     "collection": {
-      "name": "The Warriors",
+      "name": "The Punks",
       "family": "Street Gangs of NY"
    },
     "properties": {
       "files": [
         {
-          "uri": "2.png",
+          "uri": "15.png",
           "type": "image/png"
         }
       ],

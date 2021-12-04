@@ -1,15 +1,15 @@
 {
-    "name": "Cleon",
+    "name": "Witness",
     "symbol": "",
-    "image": "2.png",
+    "image": "22.png",
     "collection": {
-      "name": "The Warriors",
+      "name": "Unknown",
       "family": "Street Gangs of NY"
    },
     "properties": {
       "files": [
         {
-          "uri": "2.png",
+          "uri": "22.png",
           "type": "image/png"
         }
       ],

@@ -1,7 +1,7 @@
 {
-    "name": "Cleon",
+    "name": "Cowboy",
     "symbol": "",
-    "image": "2.png",
+    "image": "4.png",
     "collection": {
       "name": "The Warriors",
       "family": "Street Gangs of NY"
@@ -9,7 +9,7 @@
     "properties": {
       "files": [
         {
-          "uri": "2.png",
+          "uri": "4.png",
           "type": "image/png"
         }
       ],
@@ -21,3 +21,4 @@
       ]
     }
   }
+

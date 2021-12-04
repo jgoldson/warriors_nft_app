@@ -1,15 +1,15 @@
 {
-    "name": "Cleon",
+    "name": "Apache",
     "symbol": "",
-    "image": "2.png",
+    "image": "13.png",
     "collection": {
-      "name": "The Warriors",
+      "name": "The Orphans",
       "family": "Street Gangs of NY"
    },
     "properties": {
       "files": [
         {
-          "uri": "2.png",
+          "uri": "13.png",
           "type": "image/png"
         }
       ],

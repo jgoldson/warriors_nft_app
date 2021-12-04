@@ -354,11 +354,32 @@ const getCandyMachineState = async () => {
     if (currentDate < dropDate) {
       console.log('Before drop date!');
       // Don't forget to pass over your dropDate!
-      return <CountdownTimer dropDate={dropDate} />;
+      return <h1><CountdownTimer dropDate={dropDate} /> </h1>;
     }
   
   // Else let's just return the current drop date
-  return <p>{`Drop Date: ${machineStats.goLiveDateTimeString}`}</p>;
+  return (
+    <div>
+  <p>{`Drop Date: ${machineStats.goLiveDateTimeString}`}</p>
+  <p>{`Items Minted: ${machineStats.itemsRedeemed} / ${machineStats.itemsAvailable}`}</p>
+          {/* Check to see if these properties are equal! */}
+          {machineStats.itemsRedeemed === machineStats.itemsAvailable ? (
+            <p className="sub-text">Sold Out 🙊</p>
+          ) : (
+            <button
+              className="cta-button mint-button"
+              onClick={mintToken}
+              disabled={isMinting}
+            >
+              Mint NFT
+            </button>
+          )}
+          {mints.length > 0 && renderMintedItems()}
+        
+        {isLoadingMints && <p>LOADING MINTS...</p>}
+  </div>
+  )
+  
 };
 
   const renderMintedItems = () => (
@@ -377,23 +398,6 @@ const getCandyMachineState = async () => {
     machineStats && (
       <div className="machine-container">
         {renderDropTimer()}
-        <p>{`Items Minted: ${machineStats.itemsRedeemed} / ${machineStats.itemsAvailable}`}</p>
-          {/* Check to see if these properties are equal! */}
-          {machineStats.itemsRedeemed === machineStats.itemsAvailable ? (
-            <p className="sub-text">Sold Out 🙊</p>
-          ) : (
-            <button
-              className="cta-button mint-button"
-              onClick={mintToken}
-              disabled={isMinting}
-            >
-              Mint NFT
-            </button>
-          )}
-          
-        {mints.length > 0 && renderMintedItems()}
-        
-        {isLoadingMints && <p>LOADING MINTS...</p>}
       </div>
     )
   );

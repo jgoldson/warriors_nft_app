@@ -1,15 +1,15 @@
 {
-    "name": "Cleon",
+    "name": "Lizzy#1",
     "symbol": "",
-    "image": "2.png",
+    "image": "8.png",
     "collection": {
-      "name": "The Warriors",
+      "name": "The Lizzies",
       "family": "Street Gangs of NY"
    },
     "properties": {
       "files": [
         {
-          "uri": "2.png",
+          "uri": "8.png",
           "type": "image/png"
         }
       ],
