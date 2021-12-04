@@ -374,7 +374,8 @@ const getCandyMachineState = async () => {
               Mint NFT
             </button>
           )}
-          {mints.length > 0 && renderMintedItems()}
+          console.log(mints.length)
+          {(mints.length > 0) && renderMintedItems()}
         
         {isLoadingMints && <p>LOADING MINTS...</p>}
   </div>
