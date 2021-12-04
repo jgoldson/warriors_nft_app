@@ -1,0 +1,19 @@
+{
+    "name": "Cyrus",
+    "symbol": "",
+    "image": "0.png",
+    "properties": {
+      "files": [
+        {
+          "uri": "0.png",
+          "type": "image/png"
+        }
+      ],
+      "creators": [
+        {
+          "address": "3xtMWVEM2Ajvgqi18YPqkuG45dJg7qoVA5cZ2TD3xXQA",
+          "share": 100
+        }
+      ]
+    }
+  }
