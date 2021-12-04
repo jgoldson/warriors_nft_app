@@ -40,6 +40,8 @@ const App = () => {
       const response = await solana.connect();
       console.log('Connected with Public Key:', response.publicKey.toString());
       setWalletAddress(response.publicKey.toString());
+    } else {
+      alert('Solana object not found! Get a Phantom Wallet 👻');
     }
   };
 
