@@ -1,4 +1,4 @@
-# buildspace Solana NFT Drop Project
+# The Warriors NFT Drop Project
 ### Welcome 👋
 A collection of NFTs from the movie The Warriors (1979). 
 Cyrus' meeting has just concluded, can MINT your way back to Coney Island??
